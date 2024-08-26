@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 // Clone the Git repository
-                git 'https://github.com/Jofralso/test_CICD'
+                git 'https://github.com/Jofralso/test_CICD.git'
             }
         }
 
